@@ -1,0 +1,55 @@
+.categories{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-wrap: wrap;
+}
+.categories a{
+    color: black;
+    text-decoration: none;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1688px) {
+
+    .categories{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1500px) {
+
+    .categories{
+        width: 53%;
+    }
+}
+@media only screen and (max-width: 1096px) {
+
+    .categories{
+        width: 71%;
+    }
+}
+@media only screen and (max-width: 770px) {
+
+    .categories{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 650px) {
+
+    .categories{
+        width: 88%;
+    }
+}
+@media only screen and (max-width: 520px) {
+
+    .categories{
+        width: 92%;
+    }
+}

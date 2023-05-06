@@ -1,0 +1,81 @@
+.lookingfor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.lookingfor h1{
+    margin-bottom: 3%;
+    font-size: 36px;
+    margin-top: 5%;
+}
+.lookingfor-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.lookingfor-card{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);   
+    border-radius: 8px;
+}
+.lookingfor-card img{
+    width: 330px;
+}
+
+.lookingfor-card-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-align: end;
+    padding: 2%;
+}
+.lookingfor-card-info h6{
+    font-size: 22px;
+    color: #2b272e6e;
+}
+.lookingfor-card-info p{
+    font-size: 22px;
+    color: #2B272E;
+}
+.lookingfor-card-info .col1{
+    margin-bottom: 11%;
+}
+.lookingfor-div-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .lookingfor h1 {
+        font-size: 23px;
+    }
+
+}
+@media only screen and (max-width: 1025px) {
+.lookingfor-div{
+    display: none;
+}
+.lookingfor-div-mobile{
+    display: inline;
+    margin-bottom: 40px;
+}
+.lookingfor .swiper-backface-hidden .swiper-slide {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    width: 100vw !important;
+    padding: 2%;
+    padding-bottom: 30px;
+    background-color: #fff;
+
+}
+.lookingfor .swiper-wrapper{
+    width: 100vw;
+}
+}

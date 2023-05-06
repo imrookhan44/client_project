@@ -1,0 +1,77 @@
+.deliveryHelp{
+    direction: rtl;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+}
+.deliveryHelp button{
+    background: none;
+    border: navajowhite;
+    width: 70px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.deliveryHelp h1{
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 32px;
+}
+.deliveryHelp h3{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 24px;
+}
+.deliveryHelp h2{
+    margin-top: 4%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 28px;
+}
+.deliveryHelp p{
+    font-size: 20px;
+}
+
+.help-main h2{
+    margin-bottom: 2%;
+}
+
+.deliveryHelp-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.deliveryHelp-btn button{
+    background-color: #5754F7;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    font-size: 19px;
+    padding: 2% 4% 2% 4%;
+    width: fit-content;
+}
+.deliveryHelp-btn div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.deliveryHelp-btn div h1{
+    font-size: 19px;
+    align-self: flex-start;
+}
+.deliveryHelp-btn div h3{
+    font-size: 15px;
+    align-self: flex-start;
+
+}

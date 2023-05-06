@@ -1,0 +1,21 @@
+.message{
+    max-width: 50%;
+    background: #E5E5EA;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 8px;
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);   
+    font-size: 20px;
+}
+.reciever{
+   align-self: flex-end;
+   background: rgb(0, 120, 254);
+   color: #fff;
+   box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);
+}
+.sender{
+   align-self: flex-start;
+}

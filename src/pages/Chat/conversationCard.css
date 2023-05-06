@@ -1,0 +1,27 @@
+.conversationCard{
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    padding: 2%;
+    border: 1px solid #ccc;
+}
+.conversationCard-profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10%;
+}
+.conversationCard-details{
+    margin-right: 6%;
+}
+.conversationCard-star{
+    display: flex;    
+    margin-right: 32%;
+}
+.conversationCard-star svg{
+    font-size: 18px;
+}
+.conversationCard-star p{
+    margin: 2px;
+    font-size: 13px;
+}

@@ -1,0 +1,37 @@
+{
+    "users": [
+        {
+            "id": "u1",
+            "name": "John Doe",
+            "avatar": "https://example.com/user1.jpg"
+        },
+        {
+            "id": "u2",
+            "name": "Jane Doe",
+            "avatar": "https://example.com/user2.jpg"
+        }
+    ],
+    "conversations": [
+        {
+            "id": "c1",
+            "name": "Conversation 1",
+            "avatar": "https://example.com/conversation1.jpg",
+            "users": [
+                "u1",
+                "u2"
+            ],
+            "messages": [
+                {
+                    "id": "m1",
+                    "sender": "u1",
+                    "text": "Hello, Jane!"
+                },
+                {
+                    "id": "m2",
+                    "sender": "u2",
+                    "text": "Hi, John!"
+                }
+            ]
+        }
+    ]
+}

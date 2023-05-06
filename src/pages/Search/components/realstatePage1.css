@@ -1,0 +1,41 @@
+.realstatePage1{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+.realstatePage1 h1{
+    margin-bottom: 3%;
+}
+.realstatePage1-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);   
+    height: 400px;
+    border-radius: 8px;
+}
+.realstatePage1 .mediator, .realstatePage1 .private{
+    width: 30%;
+    margin: auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);   
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.realstatePage1 .private:hover{
+    background-color: #5E63E4;
+    color: white;
+}
+.mediator:hover{
+    background-color: #5E63E4;
+    color: white;
+}

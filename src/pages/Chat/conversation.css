@@ -1,0 +1,68 @@
+.conversation{
+    width: 70%;
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);   
+    height: 600px;
+    overflow-y: scroll;
+    position: relative;
+}
+.conversation-header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1%;
+    background-color: #fff;
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);   
+    direction: rtl;
+    position: sticky;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+}
+
+.conversation-header h3{
+   margin-right: 1.5%;
+}
+.conversation-header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.conversation-chats{
+    display: flex;
+    flex-direction: column;
+}
+
+.conversation-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F7FC;
+    padding: 1%;
+    margin: auto;
+    width: 90%;
+    border-radius: 8px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    direction: rtl;
+    position: sticky;
+    top: 100%;
+    left: 0%;
+    background-color: #fff;
+    width: 100%;
+}
+.conversation-input input{
+    border: none;
+    background-color: #F4F7FC;
+    width: 100%;
+    outline: none;
+    font-size: 15px;
+    direction: rtl;
+    padding: 1%;    
+    box-shadow: 0px 2.21px 2.8px rgba(40, 43, 111, 0.2);   
+}
+.conversation-input svg {
+    font-size: 24px;
+    cursor: pointer;
+    transform: rotate(180deg);
+    margin: 1%;
+  }

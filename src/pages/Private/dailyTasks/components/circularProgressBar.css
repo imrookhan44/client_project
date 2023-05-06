@@ -1,0 +1,27 @@
+.circular-progress-bar {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100px;
+  }
+  
+  .circular-progress-bar__background {
+    fill: none;
+    stroke: #F2F2F2;
+  }
+  
+  .circular-progress-bar__progress {
+    fill: none;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    transition: stroke-dashoffset 0.5s;
+  }
+  
+  .circular-progress-bar__text {
+    font-size: 20px;
+    font-weight: bold;
+    text-anchor: middle;
+    dominant-baseline: middle;
+  }
+  

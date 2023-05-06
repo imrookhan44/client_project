@@ -1,0 +1,34 @@
+[
+    {
+        "category": "לגינה",
+        "img": "secondhand1.png"
+    },
+    {
+        "category": "ריהוט",
+        "img": "secondhand2.png"
+    },
+    {
+        "category": "אופנה",
+        "img": "secondhand3.png"
+    },
+    {
+        "category": "עסקים",
+        "img": "secondhand4.png"
+    },
+    {
+        "category": "תינוקות וילדים",
+        "img": "secondhand5.png"
+    },
+    {
+        "category": "חיות מחמד",
+        "img": "secondhand6.png"
+    },
+    {
+        "category": "ספורט",
+        "img": "secondhand7.png"
+    },
+    {
+        "category": "מוצרי חשמל",
+        "img": "secondhand8.png"
+    }
+]

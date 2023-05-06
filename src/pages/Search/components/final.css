@@ -1,0 +1,29 @@
+.final{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+.final-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);   
+    padding: 17% 5% 17% 5%;
+}
+.final h1{
+    margin-bottom: 3%;
+    font-size: 40px;
+}
+.final-div a{
+    color: #fff;
+    font-weight: 700;
+}
+.final-div button{
+    width: 300px;
+}

@@ -1,0 +1,21 @@
+.savedAds{
+    display: flex;
+    flex-direction: column;
+}
+.savedAds svg{
+    fill: red;
+}
+.savedAds h1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 3%;
+    font-size: 40px;
+    color: #fff;
+}
+.savedAds-cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

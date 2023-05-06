@@ -1,0 +1,46 @@
+.shippingPage1{
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 2%;
+    padding: 2%;
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);  
+    margin-bottom: 10%; 
+}
+.shippingPage1 h1{
+    margin: 3%;
+}
+.shippingPage1 p{
+    margin: 5%;
+    margin-top: -10px;
+    font-weight: 700;
+}
+.shippingPage1-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.shippingPage1-btn button{
+    background-color: #00A8B1;
+    color: #fff;
+    width: 270px;
+    height: 70px;
+    padding: 1% 4% 1% 4%;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+}
+.shippingPage1-ques{
+    text-align: right;
+}
+.shippingPage1-ques h1{
+    text-align: center;
+}

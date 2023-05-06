@@ -1,0 +1,79 @@
+.analysis{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.analysis h1{
+    width: 100%;
+    text-align: end;
+    color: #fff;
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+.analysis-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.analysis-info-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);   
+    padding: 2% 4% 2% 4%;
+    border-radius: 8px;
+    margin-bottom: 4%;
+}
+.analysis-info-card img{
+    width: 50px;
+    height: 50px;
+}
+.analysis-info-card p{
+    opacity: 0.7;
+    font-size: 26px;
+}
+.analysis-info-card h4{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 4%;
+}
+.analysis-graph{
+    background: rgb(255, 255, 255);
+    padding: 4%;
+    border-radius: 8px;
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);   
+    margin-bottom: 6%;
+}
+.analysis-graph h2{
+    width: 100%;
+    text-align: end;
+    margin-bottom: 3%;
+}
+.recharts-line path{
+    stroke-width: 5;
+}
+.analysis-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.analysis-cards h1{
+    margin-bottom: 2%;
+}
+.analysis-cards > h2{
+    font-size: 36px;
+}
+.analysis-cards-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}

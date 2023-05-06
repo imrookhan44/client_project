@@ -1,0 +1,56 @@
+.fashionPage3{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+.fashionPage3-div{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    flex-direction: column;
+    padding: 3%;
+    border-radius: 8px;
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);   
+}
+.shadow{
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);   
+}
+.fashionPage3 label{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fashionPage3 input[type=text],.fashionPage3 input[type=email],.fashionPage3 input[type=number]{
+    width: 300px;
+    background-color: #f4f7fc;
+    border: none;
+    color: #000000;
+    direction: rtl;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 2.21px 3.8px rgba(40, 43, 111, 0.2);   
+
+}
+.fashionPage3-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+.fashionPage3 .custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.fashionPage3 input[type=file]{
+    display: none;
+}

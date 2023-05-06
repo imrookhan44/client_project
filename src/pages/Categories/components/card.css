@@ -1,0 +1,108 @@
+.card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    width: 30%;
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);   
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-top: 3%;
+  }
+  .card h2 {
+    margin-bottom: 2%;
+    margin-top: 5%;
+    font-size: 19px;
+  }
+  .card img {
+    object-fit: cover;
+  }
+  
+  .heading {
+    text-align: right;
+  }
+  
+  .titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .column {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #F8FAFC;
+    padding: 2%;
+
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    flex-direction: column;
+    margin: 1%;
+    text-align: center;
+    min-width: 25%;
+    font-size: 16px;
+  }
+  .answer{
+      font-weight: 700;
+  }
+  .question{
+    color: #525e70;
+  }
+  
+  .row img {
+    width: 30px !important;
+    height: 30px;
+    margin-bottom: 8px;
+  }
+  
+  .text {
+    margin-top: 10px;
+    direction: rtl;
+    opacity: 0.7;
+    font-size: 15px;
+  }
+  
+  .button-row {
+    margin-top: 10px;
+  }
+  .button-row button{
+    background-color: #00A8B1;
+    padding: 4% 6% 4% 6%;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+  }
+  
+.texts{
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    font-size: 22px;
+    font-weight: 600;    
+}
+.alignRight{
+  text-align: right;
+  margin-top: 2%;
+}
+.texts span:last-child{
+    font-size: 22px;
+    font-weight: 600;
+}

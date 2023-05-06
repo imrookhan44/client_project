@@ -1,0 +1,94 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.cards .cards-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* .cards-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.cards .card{
+    width: 100%;
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);   
+}
+.cards .pets-info{
+    padding: 6%;
+}
+.cards-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cards .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards .card p{
+    margin-top: 3%;
+    margin-bottom: 3%;
+} */
+.cards-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10%;
+}
+.cards-btn h3{
+    font-size: 40px;
+}
+.cards-btn div{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards-btn button{
+    font-size: 15px;
+    padding: 5% 9% 5% 9%;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.cards-btn button:nth-child(1){
+    background-color: #18B5B5;
+}
+.cards-btn button:nth-child(2){
+    background-color: #5754F7;
+}
+.pagination{
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.pagination button{
+    padding: 15px;
+    background-color: #fff;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);   
+    margin: 1%;
+}
+.pagination button:first-of-type{
+    
+}

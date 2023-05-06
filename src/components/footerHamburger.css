@@ -1,0 +1,100 @@
+.hamburger-icon {
+    position: relative;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+  }
+  
+  .hamburger-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 280px;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 9999;
+    padding: 20px;
+    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hamburger-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 10%;
+  }
+  
+  .hamburger-menu li {
+    margin-bottom: 21px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #93939c;
+  }
+  .hamburger-menu li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888891;
+  }
+  .hamburger-menu li a svg{
+    margin-left: 10px;
+    font-size: 23px;
+    width: 30px;
+    height: 30px;
+    fill: #B0B1BB;
+  }
+  .hamburger-menu li a svg path{
+    fill: #B0B1BB;
+  }
+  .close-icon {
+    margin-top: 10px;
+    margin-bottom: 8%;
+    margin-right: 170px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  }
+  .close-icon svg {
+    font-size: 30px;
+  }
+  .hamburger-menu-btns-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .hamburger-menu-btns-bottom a{
+    background-color: #5754F7;
+    display: flex;
+    width: 46px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .hamburger-menu-btns-bottom img{
+    width: 26px;
+    height: 28px;
+  }
+  .hamburger-menu-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hamburger-menu-btns button{
+    width: 180px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    height: 38px;
+    margin: 5%;
+    font-size: 18px;
+  }

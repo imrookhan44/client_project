@@ -1,0 +1,8 @@
+.conversationList{
+    width: 30%;
+    height: 600px;
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+    justify-items: flex-start;
+}

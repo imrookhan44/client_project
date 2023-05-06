@@ -1,0 +1,16 @@
+.myAds{
+    display: flex;
+    flex-direction: column;
+}
+.myAds h1{
+    text-align: end;
+    margin-bottom: 3%;
+    color: #fff;
+    font-size: 40px;
+}
+.myAds-cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

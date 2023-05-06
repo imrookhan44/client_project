@@ -1,0 +1,102 @@
+.blogcorner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 9%;
+}
+
+.blogcorner-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 4%;
+}
+.blogcorner-card-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    max-width: 300px;
+}
+.blogcorner-card{
+    width: 100%; 
+    background-color: white;  
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2); 
+    padding: 20px; 
+    text-align: right;
+    position: relative;
+    overflow: hidden;
+}
+.blogcorner-card:hover{
+    width: 75%; 
+    height: 400px;
+    background-color: rgb(255, 255, 255);  
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);
+}
+.blogcorner-card:hover .show-more {
+    transform: translateY(0%);
+}
+
+.show-more {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 168, 177, 0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show-more button {
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8%;
+    border: none;
+    background-color: #ff9800;
+    color: white;
+    cursor: pointer;
+}
+.blogcorner-card:hover .show-more {
+    transform: translateY(0%);
+}
+.show-more {
+    transform: translateY(100%);
+    transition: transform 0.3s ease-out;
+}
+.blogcorner-card img{
+    width: 100%;
+}
+.blogcorner-card h3{
+    padding: 3%;
+}
+.blogcorner-card p{
+    padding: 3%;
+}
+
+
+@media only screen and (max-width: 1279px) {
+    .blogcorner-card-wrapper {
+        max-width: 256px;
+    }
+}
+
+@media only screen and (max-width: 1096px) {
+    .blogcorner-card-wrapper {
+        max-width: 300px;
+    }
+    .blogcorner-div{
+        width: 73%;
+    }
+    .blogcorner h1{
+        font-size: 23px;
+    }
+}

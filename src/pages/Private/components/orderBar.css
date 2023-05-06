@@ -1,0 +1,52 @@
+.item-row {
+    background-color: #f5f5f5; 
+  }
+  
+  .item-row td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .item-row td:first-child {
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .item-row td:last-child {
+    position: relative;
+    text-align: left;
+  }
+  .item-image1 {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 50%;
+    right: 10px;
+  }
+  .item-image {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    border-radius: 8px;
+  }
+  
+  .active {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px; 
+    cursor: pointer;
+  }
+a{
+    text-decoration: none;
+    color: black;
+  }

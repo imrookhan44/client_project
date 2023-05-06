@@ -1,0 +1,206 @@
+.header{
+    display: inline-flex;
+    width: 100%;
+    background-color: #edf3fd;
+}
+.header .header-box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.header .header-box2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 30%;
+    padding-right: 8%;
+}
+.header .header-box2 h1{
+    color: #181E4B;
+    font-size: 100px;
+    font-weight: bold;
+    margin-right: -9px;
+}
+.header .header-box2 h2{
+    color: #181E4B;
+    font-size: 50px;
+}
+.header .header-box2 p{
+    color: #696969;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: end;
+}
+.header .header-box2 button{
+    background-color: #5754F7;
+    font-size: 24px;
+    color: #fff;
+    padding: 10px 22px 10px 22px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+    font-weight: 500;
+
+}
+
+
+@media only screen and (max-width: 956px) {
+    .header{
+        height: 300px;
+    }
+    .header img{
+        height: 250px;
+    }
+    .header .header-box2 h2 {
+        font-size: 26px;
+    }
+    .header .header-box2 h1 {
+        font-size: 52px;
+        margin-right: -4px;
+    }
+    .header .header-box2 p {
+        font-size: 16px;
+    }
+    .header .header-box2 button {
+        font-size: 18px;
+        margin-top: 20px;
+        border-radius: 6px;
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    .header{
+        height: 300px;
+    }
+    .header img{
+        height: 250px;
+    }
+    .header .header-box2 h2 {
+        font-size: 26px;
+    }
+    .header .header-box2 h1 {
+        font-size: 52px;
+        margin-right: -4px;
+    }
+    .header .header-box2 p {
+        font-size: 16px;
+    }
+    .header .header-box2 button {
+        font-size: 18px;
+        margin-top: 20px;
+        border-radius: 6px;
+    }
+    .header .header-box1{
+        width: 60%;
+    }
+    .header .header-box2{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 643px) {
+    .header .header-box2 button {
+        font-size: 18px;
+        margin-top: 20px;
+        border-radius: 6px;
+        padding: 8px 16px 8px 16px;
+
+    }
+}
+@media only screen and (max-width: 604px) {
+    .header .header-box2 button {
+        font-size: 17.3px;
+        margin-top: 20px;
+        border-radius: 6px;
+        padding: 8px 11px 8px 11px;
+    }
+}
+
+
+@media only screen and (max-width: 530px) {
+    .header{
+        height: 200px;
+    }
+    .header img{
+        height: 170px;
+    }
+    .header .header-box1{
+        width: 60%;
+    }
+    .header .header-box2{
+        width: 40%;
+    }
+    .header .header-box2 h2 {
+        font-size: 18px;
+    }
+    .header .header-box2 h1 {
+        font-size: 40px;
+    }
+    .header .header-box2 p {
+        font-size: 13px;
+    }
+    .header .header-box2 button {
+        font-size: 16.5px;
+        margin-top: 13px;
+        padding: 6px 12px 6px 12px;
+    }
+}
+
+/* Galaxy fold responsive*/
+@media only screen and (max-width: 354px) {
+    .header{
+        height: 200px;
+    }
+    .header img{
+        height: 170px;
+    }
+    .header .header-box1{
+        width: 60%;
+    }
+    .header .header-box2{
+        width: 40%;
+    }
+    .header .header-box2 h2 {
+        font-size: 18px;
+    }
+    .header .header-box2 h1 {
+        font-size: 40px;
+    }
+    .header .header-box2 p {
+        font-size: 13px;
+    }
+    .header .header-box2 button {
+        font-size: 16px;
+        margin-top: 13px;
+        padding: 6px 11px 6px 11px;
+    }
+}
+
+/* Galaxy fold responsive*/
+@media only screen and (max-width: 339px) {
+    .header{
+        height: 160px;
+    }
+    .header img{
+        height: 130px;
+    }
+    .header .header-box1{
+        width: 60%;
+    }
+    .header .header-box2{
+        width: 40%;
+    }
+    .header .header-box2 h2 {
+        font-size: 18px;
+    }
+    .header .header-box2 h1 {
+        font-size: 30px;
+    }
+    .header .header-box2 p {
+        font-size: 12px;
+    }
+    .header .header-box2 button {
+        display: none;
+    }
+}

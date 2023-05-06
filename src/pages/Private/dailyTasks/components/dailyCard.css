@@ -1,0 +1,72 @@
+.dailyCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin: auto;
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);  
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 8px;
+    height: 256px;
+}
+.dailyCardleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.dailyCardleft h1{
+    font-size: 22px;
+    margin-bottom: 12%;
+}
+.dailyCardright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+}
+.dailyCardrightinfo1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.dailyCardrightinfo1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    padding: 5%;
+    color: #fff;
+    background-color: #5E63E4;
+    border-radius: 8px;
+    margin: 2%;
+}
+.dailyCardrightinfo1 div:nth-child(2){
+    background-color: #2BBF80;
+}
+.dailyCardrightinfo2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    direction: rtl;
+    padding: 1%;
+    align-self: flex-end;
+}
+.dailyCardrightinfo2 p{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.dailyCardrightinfo2 p svg{
+    fill: #5E63E4;
+    font-size: 21px;
+}

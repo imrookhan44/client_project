@@ -1,0 +1,32 @@
+[
+    {
+        "title": "pets",
+        "category": "חיות מחמד",
+        "img": "Icon.png"
+    },
+    {
+        "title": "appliances",
+        "category": "מוצרי חשמל",
+        "img": "Icon1.png"
+    },
+    {
+        "title": "secondHand",
+        "category": "יד שנייה",
+        "img": "Icon2.png"
+    },
+    {
+        "title": "vehicle",
+        "category": "רכב",
+        "img": "Icon3.png"
+    },
+    {
+        "title": "realstate",
+        "category": "נדל”ן",
+        "img": "Icon4.png"
+    },
+    {
+        "title": "business",
+        "category": "עסקים",
+        "img": "Icon5.png"
+    }
+]

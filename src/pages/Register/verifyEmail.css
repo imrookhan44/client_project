@@ -1,0 +1,87 @@
+.verifyContainer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-block-end: auto;
+  margin-block-start: auto;
+  width: 100%;
+  direction: rtl;
+
+}
+
+.verifyEmailSection {
+  position: absolute;
+  width: 700px;
+  height: 430px;
+  text-align: center;
+  top: 70px;
+  background-color: rgba(236, 236, 236, 0.31);
+  border-radius: 16px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.verifyEmailSection h1 {
+  text-align: center;
+  margin-top: 8%;
+  font-size: 26px;
+}
+
+.verifyEmailSection p {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 17px;
+}
+
+.verifyEmail {
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+.verifyEmail>input {
+  width: 45%;
+  height: 46px;
+  font-weight: 700;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: none;
+  border: 2px solid rgb(187, 187, 187);
+  background-color: #ffffff;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.password>input {
+  width: 45%;
+  height: 46px;
+  font-weight: 700;
+  box-sizing: border-box;
+  border: none;
+  border: 2px solid rgb(187, 187, 187);
+  background-color: #ffffff;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  padding: 10px;
+}
+
+.verifyButton {
+  width: 32%;
+  height: 45px;
+  font-weight: 600;
+  font-size: 23px;
+  background-color: #657cec;
+  box-shadow: 0 5px 6px 0 rgb(0 0 0 / 10%);
+  color: #ffffff;
+  border-color: transparent;
+  border-radius: 8px;
+  margin-top: 4%;
+  text-align: center;
+}

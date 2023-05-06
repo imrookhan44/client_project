@@ -1,0 +1,126 @@
+/* Responsive Footer CSS */
+
+/* Footer Container */
+.footer-container {
+  background-color: #5754F7;
+  color: #fff;
+  padding: 30px;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: column;
+  bottom: 0;
+  width: 100%;
+  }
+
+  /* Footer Row */
+  .footer-row {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer-row:nth-child(3){
+    width: 30%;
+    margin: auto;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  .footer-row:nth-child(4){
+    width: 50%;
+    margin: auto;
+  }
+  .footer-inner{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  /* Footer Column */
+  .footer-col {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Footer Column Heading */
+  .footer-col h2 {
+    margin: 4%;
+  }
+  
+  /* Footer Column Rows */
+  .footer-col p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  /* Footer Social */
+  .footer-social {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-right: 10px;
+  }
+  
+  /* Footer Social Images */
+  .footer-social img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  /* Footer Text */
+  .footer-row p {
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Footer Headings */
+  .footer-row h5 {
+    width: 20%;
+    margin: 0;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  /* Media Queries */
+  
+  /* For screens smaller than 768px (mobile) */
+  @media (max-width: 768px) {
+    .footer-row {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    .footer-row:nth-child(1){
+      display: none;
+    }
+    .footer-row:nth-child(3){
+      width: 80%;
+      flex-direction: row;
+    }
+    .footer-col {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .footer-social {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .footer-row:nth-child(4){
+      width: 100%;
+    }
+    .footer-row h5 {
+      width: 100%;
+    }
+  }
+  .hide{
+    display: none;
+  }

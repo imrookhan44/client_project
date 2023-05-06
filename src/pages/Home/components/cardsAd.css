@@ -1,0 +1,177 @@
+.cardsAd {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    max-width: 44%;
+    box-shadow: 0px 18.21px 52.8px rgba(40, 43, 111, 0.2);   
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  .cardsAd h2 {
+    margin-bottom: 2%;
+    margin-top: 5%;
+    font-size: 19px;
+  }
+  .cardsAd img {
+    object-fit: cover;
+  }
+  
+  .heading {
+    text-align: right;
+  }
+  
+  .titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .column {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #F8FAFC;
+    padding: 2%;
+
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    flex-direction: column;
+    margin: 1%;
+    text-align: center;
+    min-width: 25%;
+    font-size: 16px;
+    }
+    .answer{
+      font-weight: 700;
+      color: black;
+  }
+  .question{
+    color: #525e70;
+  }
+  .row img {
+    width: 27px !important;
+    height: 31px;
+    margin-bottom: 8px;
+  }
+  
+  .text {
+    margin-top: 10px;
+    direction: rtl;
+    opacity: 0.7;
+    font-size: 13px;
+  }
+  
+  .button-row {
+    margin-top: 10px;
+  }
+  .button-row button{
+    background-color: #5754F7;
+    padding: 4% 8% 4% 8%;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 10px;
+    margin-top: 5%;
+    width: 100%;
+  }
+  
+.texts{
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    font-size: 20px;
+    text-align: center;
+}
+.alignRight{
+  text-align: right;
+}
+.texts span:last-child{
+    font-size: 13px;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 1025px) {
+  .cardsAd {
+    min-width: 280px;
+    max-width: 50%;
+    margin: auto;
+  }
+  .cardsAd h2 {
+    margin-bottom: 2%;
+    margin-top: 5%;
+    font-size: 19px;
+  }
+  .titles {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .cardsAd .row {
+    margin-bottom: 3px;
+    font-size: 16px;
+    }
+    .texts span{
+      font-size: 22px;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .cardsAd {
+    min-width: 280px;
+    max-width: 60%;
+    margin: auto;
+  }
+  .cardsAd h2 {
+    margin-bottom: 2%;
+    margin-top: 5%;
+    font-size: 19px;
+  }
+  .titles {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .cardsAd .row {
+    margin-bottom: 3px;
+    font-size: 16px;
+    }
+    .texts span{
+      font-size: 24px;
+    }
+}
+@media only screen and (max-width: 650px) {
+  .cardsAd {
+    max-width: 64%;
+  }
+  .texts span{
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .texts span{
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 467px) {
+  .cardsAd .row {
+    font-size: 18px;
+  }
+}
+
+
+
+

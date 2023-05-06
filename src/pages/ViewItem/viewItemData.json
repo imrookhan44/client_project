@@ -1,0 +1,276 @@
+[
+    {
+        "itemId": 0,
+        "category": "pets",
+        "name": "פרטי בעל החיים ",
+        "description": "*בלי תיווך ולא לתיוו במגדלי רמבם (כיכר רמבם), הנרי קנדל 10, למכירה דירת 4.5 חדרים, עוברת בימים אלו רענון לאחר יציאת הדיירים (שכירות ריאלית ",
+        "features1": [
+            {
+                "icon": "CardIconPets0",
+                "text1": "גור - עד 9 חודשים",
+                "text2": "גיל"
+            },
+            {
+                "icon": "CardIconPets1",
+                "text1": "זכר",
+                "text2": "מין"
+            }
+        ],
+        "features": [
+            {
+                "icon": "CardIconPets0",
+                "title": "גור - עד 9 חודשים",
+                "feature": "גיל"
+            },
+            {
+                "icon": "CardIconPets1",
+                "title": "זכר",
+                "feature": "מין"
+            }
+        ],
+        "location": "ראש העין",
+        "price": "₪ 2,250,000",
+        "images": "Card-pets"
+    },
+    {
+        "itemId": 1,
+        "Category": "secondHand",
+        "name": "פרטי המוצר",
+        "description": "די דידדדדגגדדדיד דדדגגדדדיד דדדגגדדדידדדד גגדד דידדדדגגדד",
+        "features1": [
+            {
+                "icon": "",
+                "text1": "משומש",
+                "text2": "מצב מוצר"
+            },
+            {
+                "icon": "",
+                "text1": "כן",
+                "text2": "יש אפשרות שילוח?"
+            }
+        ],
+        "features": [
+            {
+                "icon": "",
+                "title": "משומש",
+                "feature": "מצב מוצר"
+            },
+            {
+                "icon": "",
+                "title": "כן",
+                "feature": "יש אפשרות שילוח?"
+            }
+        ],
+        "location": "ראש העין",
+        "price": "₪ 2,250,000",
+        "images": "Cards-secondHand"
+    },
+    {
+        "itemId": 2,
+        "Category": "vehicle",
+        "name": "פרטי המוצר ",
+        "description": "די דידדדדגגדדדיד דדדגגדדדיד דדדגגדדדידדדד גגדד דידדדדגגדד",
+        "features1": [
+            {
+                "icon": "CardIconVehicle1",
+                "text1": "3",
+                "text2": "יד"
+            },
+            {
+                "icon": "CardIconVehicle1",
+                "text1": "150,000",
+                "text2": "קילומטר"
+            },
+            {
+                "icon": "CardIconVehicle2",
+                "text1": "1800 סמ”ק",
+                "text2": "מנוע"
+            },
+            {
+                "icon": "CardIconVehicle3",
+                "text1": "2017",
+                "text2": "שנה"
+            }
+        ],
+        "features": [
+            {
+                "icon": "CardIconVehicle0",
+                "title": "3",
+                "feature": "יד"
+            },
+            {
+                "icon": "CardIconVehicle1",
+                "title": "150,000",
+                "feature": "קילומטר"
+            },
+            {
+                "icon": "CardIconVehicle2",
+                "title": "1800 סמ”ק",
+                "feature": "מנוע"
+            },
+            {
+                "icon": "CardIconVehicle3",
+                "title": "2017",
+                "feature": "שנה"
+            }
+        ],
+        "location": "ראש העין",
+        "price": "₪ 2,250,000",
+        "more_details": [
+            "Brand new in box",
+            "Includes charger and headphones",
+            "Free shipping"
+        ],
+        "more_features": [
+            {
+                "name": "Water-resistant",
+                "available": true
+            },
+            {
+                "name": "Wireless charging",
+                "available": true
+            },
+            {
+                "name": "Expandable storage",
+                "available": false
+            },
+            {
+                "name": "Headphone jack",
+                "available": false
+            },
+            {
+                "name": "Fingerprint scanner",
+                "available": true
+            },
+            {
+                "name": "Facial recognition",
+                "available": true
+            },
+            {
+                "name": "Dual SIM",
+                "available": false
+            },
+            {
+                "name": "NFC",
+                "available": true
+            },
+            {
+                "name": "IR blaster",
+                "available": false
+            },
+            {
+                "name": "Stylus support",
+                "available": false
+            }
+        ],
+        "images": "Card-car"
+    },
+    {
+        "itemId": 3,
+        "Category": "realstate",
+        "name": "פרטי המוצר",
+        "description": "די דידדדדגגדדדיד דדדגגדדדיד דדדגגדדדידדדד גגדד דידדדדגגדד",
+        "features1": [
+            {
+                "icon": "CardIconRealstate0",
+                "text1": "04",
+                "text2": "קומה"
+            },
+            {
+                "icon": "CardIconRealstate1",
+                "text1": "02",
+                "text2": "חדרים"
+            },
+            {
+                "icon": "CardIconRealstate2",
+                "text1": "720",
+                "text2": "מ”ר"
+            }
+        ],
+        "features": [
+            {
+                "icon": "CardIconRealstate0",
+                "title": "04",
+                "feature": "קומה"
+            },
+            {
+                "icon": "CardIconRealstate1",
+                "title": "02",
+                "feature": "חדרים"
+            },
+            {
+                "icon": "CardIconRealstate2",
+                "title": "720",
+                "feature": "מ”ר"
+            }
+        ],
+        "location": "ראש העין",
+        "price": "50,000",
+        "more_features": [
+            {
+                "name": "Water-resistant",
+                "available": true
+            },
+            {
+                "name": "Wireless charging",
+                "available": true
+            },
+            {
+                "name": "Expandable storage",
+                "available": false
+            },
+            {
+                "name": "Headphone jack",
+                "available": false
+            },
+            {
+                "name": "Fingerprint scanner",
+                "available": true
+            },
+            {
+                "name": "Facial recognition",
+                "available": true
+            },
+            {
+                "name": "Dual SIM",
+                "available": false
+            },
+            {
+                "name": "NFC",
+                "available": true
+            },
+            {
+                "name": "IR blaster",
+                "available": false
+            },
+            {
+                "name": "Stylus support",
+                "available": false
+            }
+        ],
+        "images": "Card-realstate"
+    },
+    {
+        "itemId": 4,
+        "Category": "business",
+        "name": "פרטי המוצר ",
+        "description": "די דידדדדגגדדדיד דדדגגדדדיד דדדגגדדדידדדד גגדד דידדדדגגדד",
+        "features1": [
+            {
+                "icon": "",
+                "text1": "בית קפה",
+                "text2": "סוג"
+            }
+        ],
+        "features": [
+            {
+                "icon": "",
+                "title": "בית קפה",
+                "feature": "סוג"
+            }
+        ],
+        "location": "ראש העין",
+        "price": "₪ 2,250,000",
+        "images": "Card-business"
+    }
+]
